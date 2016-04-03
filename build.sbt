@@ -4,7 +4,7 @@ name := "location-service"
 
 version := "0.2"
 
-organization := "com.oracle"
+organization := "com.tofu-house"
 
 scalaVersion := "2.11.7"
 
@@ -51,6 +51,6 @@ libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.12"
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.4" % "test"
 
 // Assembly settings
-//mainClass in Global := Some("com.oracle.knowledge.service.Main")
+//mainClass in Global := Some("com.tofu-house.location.service.Main")
 
 //jarName in assembly := "location-service"
